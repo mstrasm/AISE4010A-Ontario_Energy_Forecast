@@ -76,9 +76,9 @@ import pandas as pd
 
 # Create a lag feature for hourly_demand
 
-train['hourly_demand_lag_1'] = train['hourly_demand'].shift(72)  # Lag by 1 hour
+train['hourly_demand_lag_1'] = train['hourly_demand'].shift(1)  # Lag by 1 hour
 train['hourly_demand_lag_24'] = train['hourly_demand'].shift(24)  # Lag by 24 hours
-test['hourly_demand_lag_1'] = test['hourly_demand'].shift()  # Lag by 1 hour
+test['hourly_demand_lag_1'] = test['hourly_demand'].shift(1)  # Lag by 1 hour
 test['hourly_demand_lag_24'] = test['hourly_demand'].shift(24)  # Lag by 24 hours
 
 train = train.dropna()
