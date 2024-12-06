@@ -20,8 +20,6 @@ FILTERS = 96
 KERNEL_SIZE = 7
 LSTM_UNITS = 50
 
-scaler_X = StandardScaler()
-scaler_y = StandardScaler()
 
 def build_model(input_shape):
     model = Sequential()
