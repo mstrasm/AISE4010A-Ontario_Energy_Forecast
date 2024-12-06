@@ -8,7 +8,7 @@ from tensorflow.keras.optimizers import Adam
 from sklearn.preprocessing import  StandardScaler
 from sklearn.metrics import mean_absolute_error
 import tensorflow as tf
-from DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y_test_sliding
+from DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y_test_sliding, scaler_x, scaler_y
 import pandas as pd
 
 WINDOW_SIZE = 336 
