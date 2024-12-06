@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error
 import tensorflow as tf
 from keras_tuner import RandomSearch
-from FinalProject.DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y_test_sliding
+from FinalProject.DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y_test_sliding, scaler_X, scaler_y
 
 
 WINDOW_SIZE = 336  
