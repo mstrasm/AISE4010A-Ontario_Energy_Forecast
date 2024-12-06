@@ -12,7 +12,7 @@ from DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y
 import pandas as pd
 
 WINDOW_SIZE = 336 
-EPOCHS = 20
+EPOCHS = 50
 BATCH_SIZE = 32 
 LEARNING_RATE = 0.001 
 DROPOUT_RATE = 0.5
