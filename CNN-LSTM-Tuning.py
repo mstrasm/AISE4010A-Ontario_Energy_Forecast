@@ -15,8 +15,6 @@ WINDOW_SIZE = 336
 BATCH_SIZE = 32  
 EPOCHS = 10  
 
-scaler_X = StandardScaler()
-scaler_y = StandardScaler()
 
 def build_model(hp):
     model = Sequential()
