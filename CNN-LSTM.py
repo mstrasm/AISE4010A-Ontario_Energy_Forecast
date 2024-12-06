@@ -11,7 +11,7 @@ import tensorflow as tf
 from DataPreProcessing import X_train_sliding, y_train_sliding,X_test_sliding, y_test_sliding
 import pandas as pd
 
-WINDOW_SIZE = 336  # 1 month of hourly data
+WINDOW_SIZE = 336 
 EPOCHS = 20
 BATCH_SIZE = 32 
 LEARNING_RATE = 0.001 
